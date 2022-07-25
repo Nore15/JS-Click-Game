@@ -2,6 +2,7 @@
 	position: absolute;
 	width: 100px;
 	height: 100px;
+	padding: 5%;
 	background-color: rgb(192, 16, 16);
 	cursor: pointer;
 }
