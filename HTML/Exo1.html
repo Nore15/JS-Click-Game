@@ -14,12 +14,16 @@
             function()
             {
               $('.vert-center').click(Exo1);
+              $('.vert-center').mousedown(finish);
+              const myTimeout = setInterval(decrease, 1000);
             }
         );
         
     </script>
 </head>
 <body>
+  <div id="score">0</div>
+  <div id="time">10</div>
   <div class="vert-center">
   </div>
 </body>
